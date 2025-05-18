@@ -13,7 +13,7 @@ FIREBASE_CREDENTIAL_PATH = os.getenv("FIREBASE_CREDENTIAL_PATH", "firebase-servi
 cred = credentials.Certificate(FIREBASE_CREDENTIAL_PATH)
 
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://airline-chat-app-default-rtdb.firebaseio.com/' 
+    'databaseURL': os.getenv("FIREBASE_DB_URL")
 })
 
 # Load environment variables
