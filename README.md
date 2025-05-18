@@ -8,7 +8,7 @@ Users can query flights, buy tickets, and check in through a chat interface, whi
 
 ## 🔗 Source Code
 
-GitHub Repository: [https://github.com/kullaniciadi/airline-chat-assistant](https://github.com/kullaniciadi/airline-chat-assistant)
+GitHub Repository: [https://github.com/dogasac/flight-assistant]()
 
 ---
 
