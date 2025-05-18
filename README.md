@@ -1,6 +1,8 @@
 # ✈️ Airline Chat Assistant
 
-A conversational AI assistant built with Flask, OpenAI's GPT API, and Firebase to interact with a RESTful Airline API. It allows users to query flights, buy tickets, and check in using natural language.
+A conversational AI assistant built with Flask, OpenAI's GPT API, and Firebase.
+It acts as a gateway layer that interprets user messages and interacts with an internal Airline API.
+Users can query flights, buy tickets, and check in through a chat interface, while all actual service calls are securely routed through this gateway.
 
 ---
 
