@@ -8,16 +8,13 @@ from dotenv import load_dotenv
 import firebase_admin
 from firebase_admin import credentials, db
 
-# Firebase başlatma
 FIREBASE_CREDENTIAL_PATH = os.getenv("FIREBASE_CREDENTIAL_PATH", "firebase-service-account.json")
 
 cred = credentials.Certificate(FIREBASE_CREDENTIAL_PATH)
 
-# Örneğin Realtime Database kullanacaksan, şu şekilde initialize et:
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://airline-chat-app-default-rtdb.firebaseio.com/' 
 })
-
 
 # Load environment variables
 load_dotenv()
